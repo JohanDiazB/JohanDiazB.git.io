@@ -12,6 +12,7 @@ nav {
     padding: 10px;
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -32,7 +33,7 @@ nav a {
     nav a {
         margin-right: 0; 
         margin-bottom: 10px; 
-        padding: 15px; 
+        padding: 15px;
         font-size: 16px; 
     }
 }
@@ -40,6 +41,8 @@ a:hover{
     background-color: rgba(214, 23, 23, 0.315);
     transition: .5s;
     border: 1px solid orangered;
+    transition: transform 0.3;
+    transform:scale(1.1) ;
 }
 header {
     background: rgb(246,252,50);
@@ -49,12 +52,12 @@ header {
 }
 
 header img {
-    width: 20vw; /* Utilizando unidades relativas */
-    height: 20vw; /* Utilizando unidades relativas */
-    max-width: 200px; /* Limita el tamaño máximo a 200px */
-    max-height: 200px; /* Limita el tamaño máximo a 200px */
+    width: 20vw; 
+    height: 20vw; 
+    max-width: 200px;
+    max-height: 200px; 
     border-radius: 50%;
-    margin-top: 2vw; /* Utilizando unidades relativas */
+    margin-top: 2vw;
 }
 
 .header{
@@ -66,11 +69,16 @@ header img {
     margin-right: 400px;
 }
 
+.nombre{
+    font-family: cursive;
+    
+}
+
 header i{
     padding: 5px; 
 }
 
-/* Media queries para ajustar el diseño en pantallas más pequeñas */
+
 @media (max-width: 1100px) {
     header {
         padding: 10px;
@@ -135,4 +143,3 @@ article p {
     font-size:20px;
     padding-top: 10px;
 }
-
