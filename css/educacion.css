@@ -70,7 +70,17 @@ h1 {
     color:rgb(66, 66, 66);
     animation: red 3.5s infinite;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;  
+    }
+}
 
 h3 {
     color: #ff7f50; 
